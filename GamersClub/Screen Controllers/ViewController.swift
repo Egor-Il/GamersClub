@@ -72,7 +72,7 @@ class ViewController: UIViewController {
     
     
     private func configureUI() {
-        view.backgroundColor = .gray
+        view.backgroundColor = .systemGray6
         view.addSubview(menuImage)
         
         let menuImageHight = view.frame.height / 3

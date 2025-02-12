@@ -41,7 +41,7 @@ class GameViewController: UIViewController {
     }
     // MARK: - UI configuration
     private func configureUI () {
-        view.backgroundColor = .gray
+        view.backgroundColor = .systemGray6
         view.addSubview(gameScreen)
         view.addSubview(homeButton)
         
