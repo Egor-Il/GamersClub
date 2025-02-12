@@ -156,7 +156,7 @@ class AppointmentController: UIViewController {
     }
     // MARK: - UI configuration
     private func configureUI() {
-        view.backgroundColor = .systemGray6
+        view.backgroundColor = .gray
         view.addSubview(topContainer)
         topContainer.addArrangedSubview(backButton)
         topContainer.addArrangedSubview(clearButton)
